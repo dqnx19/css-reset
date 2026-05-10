@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Pozadí -->
+  <rect width="32" height="32" rx="6" fill="#1a1a1a"/>
+  
+  <!-- Mírně zmenšená kruhová šipka (bílá) -->
+  <path d="M26 16 A10 10 0 1 1 24.5 9.5" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  <!-- Hrot šipky -->
+  <polyline points="19 10 25.5 10 25.5 4" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Symbol # (tmavě modrá, vycentrovaná) -->
+  <text x="16" y="20" font-family="Google Sans, sans-serif" font-weight="bold" font-size="11" fill="#009dff" text-anchor="middle">#</text>
+</svg>

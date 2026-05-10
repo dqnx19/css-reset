@@ -1,0 +1,12 @@
+table {
+    width: auto;
+    min-width: max-content;
+    overflow: hidden;
+
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 10px;
+
+    z-index: 0;
+    position: relative;
+}

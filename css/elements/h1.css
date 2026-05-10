@@ -1,0 +1,13 @@
+h1 {
+    font-family: 'Lexend', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+
+    text-align: left;
+    font-size: 32px;
+
+    margin-bottom: 60px;
+    background-color: #1C1F24;
+    border-radius: 16px;
+    padding: 16px;
+}

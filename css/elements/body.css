@@ -1,0 +1,8 @@
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+
+    overflow-x: auto;
+
+    background-color: #0A0A0B;
+}
