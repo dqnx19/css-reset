@@ -4,3 +4,10 @@ main {
     margin-left: 300px;
     margin-right: 300px
 }
+
+@media(max-width: 600px) {
+    main {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
