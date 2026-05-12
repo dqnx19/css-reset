@@ -17,9 +17,7 @@ const t = i18n[lang] || i18n.en;
 function showHome() {
     document.title = t.home_title + " - CSS Reset"
     main.innerHTML = `
-        <h1>Home Page</h1>
-        <section>
-        </section>
+        
     `
 }
 
