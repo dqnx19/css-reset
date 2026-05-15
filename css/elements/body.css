@@ -5,4 +5,5 @@ body {
     overflow-x: auto;
 
     background-color: #0A0A0B;
+    text-rendering: optimizeLegibility;
 }
