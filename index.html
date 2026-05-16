@@ -19,21 +19,50 @@
         /* Components */
         @import url("css/components/cards.css");
         @import url("css/components/copy-box.css");
+
+        @import url('css/components/app-drawer.css');
     </style>
+    <script src="js/components/app-drawer.js" defer></script>
     <script src="js/components/copy-box.js" defer></script>
     <link rel="stylesheet" href="css/fonts.css">
     <script src="index.js" defer></script>
 </head>
 
 <body>
-    <header></header>
+    <header>
+        <button onclick="openAppDrawer()" class="app-drawer-button">
+            <div class="dots">
+                <span></span><span></span><span></span>
+                <span></span><span></span><span></span>
+                <span></span><span></span><span></span>
+            </div>
+        </button>
+        <div class="app-drawer">
+            <button onclick="openAppDrawer()" class="app-drawer-button">
+                <div class="dots">
+                    <span></span><span></span><span></span>
+                    <span></span><span></span><span></span>
+                    <span></span><span></span><span></span>
+                </div>
+            </button>
+            <a href="https://sigma-republic-transport.netlify.app">
+                <img src="https://sigma-republic-transport.netlify.app/img/icons/logo.svg" alt="">
+                Sigma Republic Transport
+            </a>
+            <a href="https://sigma-republic-bank.netlify.app">
+                <img src="https://sigma-republic-bank.netlify.app/img/icons/logo.svg" alt="">
+                Sigma Republic Bank
+            </a>
+            <a href="">App 3</a>
+        </div>
+    </header>
     <main>
 
     </main>
     <footer></footer>
 
     <div>
-        
+
     </div>
 </body>
 

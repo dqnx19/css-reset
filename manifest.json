@@ -1,7 +1,7 @@
 {
-    "name": "CSS RESET",
-    "short_name": "CSS RESET",
-    "description": "CSS reset a styling toolkit",
+    "name": "Nether Modern Web",
+    "short_name": "Nether Modern Web",
+    "description": "Modern CSS styles and JS scripts for web development.",
     "start_url": "/",
     "scope": "/",
     "display": "standalone",
